@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show Person {{ person.id }}</title>
+</head>
+<body>
+<div>
+    <ul>
+        <li>Id: {{ person.id }}</li>
+        <li>Name: {{ person.name }}</li>
+        <li>Lastname: {{ person.lastname }}</li>
+        <li>Email: {{ person.email }}</li>
+    </ul>
+</div>
+<br>
+<a href="{{ url_for('index') }}">Home</a>
+</body>
+</html>
